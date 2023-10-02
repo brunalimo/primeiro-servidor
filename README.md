@@ -14,6 +14,7 @@ Passo 2 - Lista de jogadores
 
   Passo 3 - Rota
   - Configurei a rota usando app.get e uma função callback de requisição (req) e resposta (res);
+  - app.listen(3000); para que a rota que "escute" o projeto seja da porta 3000.
 
   Passo 4 - Lógica
   - Adicionei a lógica dentro da rota/função callback.
@@ -22,3 +23,5 @@ Passo 2 - Lista de jogadores
   - Adicionei condicional if ("se o jogador da vez for menor ou igual ao array (jogadores).length") para garantir que o
     índice do jogador da vez não ultrapasse o tamanho da lista de jogadores.
   - Por fim, com o "return res.send" espera-se retornar o nome do jogador que deve jogar no momento.
+
+
